@@ -2,8 +2,8 @@ import sys
 def default():
     print("Hello")
 
-def cat():
-    print("Meaoww")
+def cati():
+    print("Meaowww")
 
 def dog():
     print("Bhaoww")
@@ -12,7 +12,7 @@ def lion():
     print("Roarr")
 def main():
     if sys.argv[1]=="cat":
-        cat()
+        cati()
     elif sys.argv[1]=="lion":
         dog()
     elif sys.argv[1]=="lion":
