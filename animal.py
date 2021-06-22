@@ -5,11 +5,16 @@ def default():
 def cat():
     print("Meaoww")
 
+def dog():
+    print("Bhaoww")
+
 def lion():
     print("Roarr")
 def main():
     if sys.argv[1]=="cat":
         cat()
+    elif sys.argv[1]=="lion":
+        dog()
     elif sys.argv[1]=="lion":
         lion()
     else:
