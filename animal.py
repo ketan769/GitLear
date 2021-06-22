@@ -5,7 +5,7 @@ def default():
 def cati():
     print("Meaowww")
 
-def dog():
+def dogi():
     print("Bhaoww")
 
 def lion():
@@ -14,7 +14,7 @@ def main():
     if sys.argv[1]=="cat":
         cati()
     elif sys.argv[1]=="lion":
-        dog()
+        dogi()
     elif sys.argv[1]=="lion":
         lion()
     else:
